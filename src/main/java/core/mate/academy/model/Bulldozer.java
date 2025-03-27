@@ -10,6 +10,14 @@ public class Bulldozer extends Machine {
     public Bulldozer() {
     }
 
+    public double getBladeWidth() {
+        return bladeWidth;
+    }
+
+    public void setBladeWidth(double bladeWidth) {
+        this.bladeWidth = bladeWidth;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Bulldozer started to work");
